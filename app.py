@@ -7,7 +7,7 @@ import pandas as pd
 import joblib
 # import sklearn.ensemble
 # from sklearn.externals import joblib
-# from sklearn.preprocessing import StandardScaler
+from sklearn.preprocessing import StandardScaler
 # from sklearn.ensemble import GradientBoostingClassifier
 # from sklearn.ensemble import GradientBoostingRegressor  
 
