@@ -1,0 +1,25 @@
+# This should be run from inside a virtualenv
+#pip install --upgrade pip &&\
+	pip install -r requirements.txt
+Requirement already satisfied: Click==7.0 in /home/ec2-user/.devops/lib/python3.7/site-packages (from -r requirements.txt (line 1)) (7.0)
+Requirement already satisfied: Flask==1.0.2 in /home/ec2-user/.devops/lib/python3.7/site-packages (from -r requirements.txt (line 2)) (1.0.2)
+Requirement already satisfied: itsdangerous==1.1.0 in /home/ec2-user/.devops/lib/python3.7/site-packages (from -r requirements.txt (line 3)) (1.1.0)
+Requirement already satisfied: Jinja2==2.10.3 in /home/ec2-user/.devops/lib/python3.7/site-packages (from -r requirements.txt (line 4)) (2.10.3)
+Requirement already satisfied: MarkupSafe==1.1.1 in /home/ec2-user/.devops/lib/python3.7/site-packages (from -r requirements.txt (line 5)) (1.1.1)
+Requirement already satisfied: numpy==1.17.2 in /home/ec2-user/.devops/lib/python3.7/site-packages (from -r requirements.txt (line 6)) (1.17.2)
+Requirement already satisfied: pandas==0.24.2 in /home/ec2-user/.devops/lib/python3.7/site-packages (from -r requirements.txt (line 7)) (0.24.2)
+Requirement already satisfied: python-dateutil==2.8.0 in /home/ec2-user/.devops/lib/python3.7/site-packages (from -r requirements.txt (line 8)) (2.8.0)
+Requirement already satisfied: pytz==2019.3 in /home/ec2-user/.devops/lib/python3.7/site-packages (from -r requirements.txt (line 9)) (2019.3)
+Requirement already satisfied: scikit-learn==0.20.3 in /home/ec2-user/.devops/lib/python3.7/site-packages (from -r requirements.txt (line 10)) (0.20.3)
+Requirement already satisfied: scipy==1.3.1 in /home/ec2-user/.devops/lib/python3.7/site-packages (from -r requirements.txt (line 11)) (1.3.1)
+Requirement already satisfied: six==1.12.0 in /home/ec2-user/.devops/lib/python3.7/site-packages (from -r requirements.txt (line 12)) (1.12.0)
+Requirement already satisfied: Werkzeug==0.16.0 in /home/ec2-user/.devops/lib/python3.7/site-packages (from -r requirements.txt (line 13)) (0.16.0)
+Requirement already satisfied: pylint==2.4.4 in /home/ec2-user/.devops/lib/python3.7/site-packages (from -r requirements.txt (line 14)) (2.4.4)
+Requirement already satisfied: mccabe<0.7,>=0.6 in /home/ec2-user/.devops/lib/python3.7/site-packages (from pylint==2.4.4->-r requirements.txt (line 14)) (0.6.1)
+Requirement already satisfied: isort<5,>=4.2.5 in /home/ec2-user/.devops/lib/python3.7/site-packages (from pylint==2.4.4->-r requirements.txt (line 14)) (4.3.21)
+Requirement already satisfied: astroid<2.4,>=2.3.0 in /home/ec2-user/.devops/lib/python3.7/site-packages (from pylint==2.4.4->-r requirements.txt (line 14)) (2.3.3)
+Requirement already satisfied: typed-ast<1.5,>=1.4.0 in /home/ec2-user/.devops/lib/python3.7/site-packages (from astroid<2.4,>=2.3.0->pylint==2.4.4->-r requirements.txt (line 14)) (1.4.3)
+Requirement already satisfied: lazy-object-proxy==1.4.* in /home/ec2-user/.devops/lib/python3.7/site-packages (from astroid<2.4,>=2.3.0->pylint==2.4.4->-r requirements.txt (line 14)) (1.4.3)
+Requirement already satisfied: wrapt==1.11.* in /home/ec2-user/.devops/lib/python3.7/site-packages (from astroid<2.4,>=2.3.0->pylint==2.4.4->-r requirements.txt (line 14)) (1.11.2)
+sudo wget -O /bin/hadolint https://github.com/hadolint/hadolint/releases/download/v1.16.3/hadolint-Linux-x86_64 &&\
+	sudo chmod +x /bin/hadolint
