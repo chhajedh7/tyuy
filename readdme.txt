@@ -1,6 +1,6 @@
 Project related screenshot have been attached in zip file
 
-GIT HUB PROJECT LINK :https://github.com/Sayali1398/DevOps_Microservices.git
+GIT HUB PROJECT LINK :https://github.com/chhajedh7/tyuy.git
 
 1--> https://github.com/chhajedh7/tyuy.git
 	Branch : main
