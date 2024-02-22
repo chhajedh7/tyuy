@@ -48,3 +48,13 @@ source .devops/bin/activate
 * Setup and Configure Kubernetes locally
 * Create Flask app in Container
 * Run via kubectl
+
+Below are the files submitted for this project.
+
+1) output_txt files containes docker_out.txt and kubernetes_out.txt which is obtained by making predictions
+2) In Dockerfile we pull image install necessary package inside the containers and run python scripts
+3) We installed minikube and kubectl .
+4) make lint command is used to check docker file
+5) Once dockerfile is check run_docker.sh was edited to build and run image
+6) We used curl command to test if image is running curl localhost:8000
+7) Edit run_kubernetes.sh 
